@@ -13,9 +13,9 @@ ifstream f("Menus.in");
 
 
 //Declarari Map=========================================================================================
-ifstream citire_matricea_Romaniei("map_Romania.in");
-ifstream km_intre_orase("km_between_cities.in");
-ifstream nume_orase("cities.in");
+ifstream citire_matricea_Romaniei("harta_Romaniei.in");
+ifstream km_intre_orase("km_intre_orase.in");
+ifstream nume_orase("orase.in");
 
 int numar_orase,matricea_adiacenta[1000][1000];
 int start,destinatie,option_for_map,resetare_4x_map,ultima_distanta;
